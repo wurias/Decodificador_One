@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'retrogaming';
+    src: url('fonts/RetroGaming.ttf');    
+}
+
+body {
+    background: #b4b4f8;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: "retrogaming";
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 100%;
+    
+}
+
+.imagem-main img {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;    
+
+}
+
+.area-textos {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.caixa-texto {
+    width: 400px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 8px;
+    border-radius: 10px;
+    resize: none;    
+    color: rgba(255, 0, 0, 0.562);
+    background: #F7E7CD;
+    font-family: "retrogaming";
+    font-size: 20px;  
+    margin: 0 5px;         
+}
+
+.resultado {
+    width: 400px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 8px;
+    border-radius: 10px;
+    resize: none;    
+    color: rgba(255, 0, 0, 0.562);    
+    background: #F7E7CD;
+    font-family: "retrogaming";
+    font-size: 20px;
+    margin: 0 5px;      
+}
+
+
+/* https://codepen.io/dariocorsi/pen/xpLgrL */ 
+
+.botoes {
+    margin-top: 20px;
+}

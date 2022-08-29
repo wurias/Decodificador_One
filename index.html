@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons/custom-property-retro-buttons/dist/style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+<header> <h1>Decodificador de Mensagens</h1> </header>
+
+    <main>
+
+        <div class="imagem-main">
+            <img src="image/coding.png" alt="Imagem Codificador">
+        </div>           
+        
+        <div class="area-textos">
+            <textarea class="caixa-texto" autofocus placeholder="Digite aqui sua mensagem..."></textarea>
+            <textarea class="resultado" placeholder="Resultado..."></textarea>
+        </div>
+        
+        
+        <div class="presentation-content">                
+            
+            <div class="bottom-button-group">
+            <button class="retro-button red-button" onclick="btnEncriptar()">CODIFICAR</button>
+            <button class="retro-button yellow-button" onclick="btnDesencriptar()">DECODIFICAR</button>
+            <button class="retro-button blue-button" onclick="btnCopy()">COPIAR</button>
+            <button class="retro-button green-button" onclick="limpaTela()">LIMPAR</button>
+            
+        </div>            
+
+    </main>    
+    
+</body>
+
+<script src="decodifica.js"></script>
+
+</html>
