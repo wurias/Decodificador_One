@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="buttons/custom-property-retro-buttons/dist/style.css">
     <title>Decodificador</title>
@@ -11,19 +12,21 @@
 
 <body>
 
-<header> <h1>Decodificador de Mensagens</h1> </header>
 
-    <main>
 
-        <div class="imagem-main">
-            <img src="image/coding.png" alt="Imagem Codificador">
+    <div class="container-fluid text-center">
+
+        <h1>DECODIFICADOR DE MENSAGENS</h1>
+
+        <div class="container-fluid">
+            <img src="image/coding.png" alt="Imagem Codificador" class="img-fluid mb-3" width="280">
         </div>           
         
-        <div class="area-textos">
-            <textarea class="caixa-texto" autofocus placeholder="Digite aqui sua mensagem..."></textarea>
-            <textarea class="resultado" placeholder="Resultado..."></textarea>
-        </div>
         
+
+          <textarea class="caixa-texto" autofocus placeholder="Digite aqui sua mensagem..."></textarea>
+          <textarea class="resultado" placeholder="Resultado..."></textarea>
+
         
         <div class="presentation-content">                
             
@@ -35,10 +38,11 @@
             
         </div>            
 
-    </main>    
+    </div>
     
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="decodifica.js"></script>
 
 </html>
